@@ -508,10 +508,10 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
         // Create empty atheneum.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL) {
-            fputs ("addnode=149.28.58.120:22000",configFile);
-            fputs ("addnode=149.28.232.227:22000",configFile);
-            fputs ("addnode=158.69.211.152:22000",configFile);
-            fputs ("addnode=158.69.211.151:22000",configFile);
+            fputs ("addnode=149.28.58.120:22000\n",configFile);
+            fputs ("addnode=149.28.232.227:22000\n",configFile);
+            fputs ("addnode=158.69.211.152:22000\n",configFile);
+            fputs ("addnode=158.69.211.151:22000\n",configFile);
             fclose(configFile);
         }
         return; // Nothing to read, so just return
