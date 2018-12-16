@@ -46,7 +46,7 @@ WalletFrame {
     }
 
     QToolBar {
-    border-image: url(':/images/barback') 0 0 0 0 stretch stretch;
+    background-image: url(':/images/barback') 0 0 0 0 stretch stretch;
     /*background-color:#c9242b;*/
     border:0px solid #000;
     padding:0;
