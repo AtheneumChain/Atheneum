@@ -11,7 +11,7 @@ WalletFrame {
     }
     
     QStatusBar {
-    background-color:#CCC;
+    background-color:#8f6060;
     }
     
     .QFrame {
@@ -20,23 +20,26 @@ WalletFrame {
     }
     
     QMenuBar {
-    background-color:#CCC;
+    background-color:#8f6060;
     }
     
     QMenuBar::item {
-    background-color:#CCC;
-    color:#333;
+    background-color:#8f6060;
+    color:#FFF;
     }
     
     QMenuBar::item:selected {
     background-color:#f8f6f6;
+    color:#333;
     }
     
     QMenu {
-    background-color:#f8f6f6;
+    background-color:#8f6060;
+    color:#FFF;
     }
     
     QMenu::item {
+    background-color:#f8f6f6;
     color:#333;
     }
     
@@ -1249,7 +1252,7 @@ WalletFrame {
     margin-right:20px;
     margin-left:0;
     margin-top:0;
-    background-image: url(':/images/atheneum_logo_horizontal');
+    background-image: url(':/images/barback');
     background-repeat:none;
     }
     
