@@ -1663,7 +1663,9 @@ WalletFrame {
     }
     
     /**************************** TRANSACTIONS PAGE *****************************************/
-    
+    QWidget#TransactionsDialog {
+    background-color:#fff;
+    }
     TransactionView QLineEdit { /* Address Filter */
     background-color:#fff;
     margin-bottom:2px;
