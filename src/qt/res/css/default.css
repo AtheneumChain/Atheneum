@@ -1721,7 +1721,7 @@ WalletFrame {
     
     /**************************** MASTERNODE LIST *******************************************/
     QWidget#MasternodeList .QFrame#frameList {
-    background-color:#ffffff;
+    background-color:#100;
     }
     
     /********************************* CALENDAR WIDGET **************************************/
