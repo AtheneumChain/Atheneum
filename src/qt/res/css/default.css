@@ -195,8 +195,8 @@ WalletFrame {
     /****************************************************************************************/
     
     QPushButton { /* Global Button Style */
-    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #c9242b, stop: .1 #c9242b, stop: .95 #c9242b, stop: 1 #c9242b);
-    border:0;
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #FFF, stop: .25 #c9242b, stop: .75 #c9242b, stop: 1 #FFF);
+    border:1px solid #bbb;
     border-radius:3px;
     color:#ffffff;
     font-size:14px;
@@ -208,8 +208,8 @@ WalletFrame {
     }
     
     QPushButton:hover {
-    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #FFF, stop: .25 #c9242b, stop: .75 #c9242b, stop: 1 #FFF);
-    border:1px solid #bbb;
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #FFF, stop: .25 #e04500, stop: .75 #e04500, stop: 1 #FFF);
+    border:2px solid #999;
     }
     
     QPushButton:focus {
