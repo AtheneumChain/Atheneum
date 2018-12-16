@@ -9,11 +9,6 @@ WalletFrame {
     margin:0;
     padding:0;
     }
-    
-    QLabel#labelOverviewHeaderRight {
-        image: url(':/images/atheneum_logo_horizontal') 0 0 0 0 stretch stretch;
-        background-image: url(':/images/atheneum_logo_horizontal') 0 0 0 0 stretch stretch;
-    }
 
     QStatusBar {
     background-color:#f8f6f6;
@@ -1797,4 +1792,10 @@ WalletFrame {
     QCalendarWidget QAbstractItemView:disabled { /* Calendar widget days not in month */
     color:#818181;
     }
+    
+QLabel#labelOverviewHeaderRight {
+qproperty-alignment: 'AlignVCenter | AlignRight';
+background-image: url(':/images/atheneum_logo_horizontal');
+background-repeat: no-repeat;
+}
     
