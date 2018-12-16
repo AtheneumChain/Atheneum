@@ -44,10 +44,19 @@ WalletFrame {
     background-color:#f2f0f0;
     color:#333;
     }
+
+    QToolBar {
+    border-image: url(':/images/barback') 0 0 0 0 stretch stretch;
+    /*background-color:#c9242b;*/
+    border:0px solid #000;
+    padding:0;
+    margin:0;
+    }
+
     /* BEGIN MODS */
     QToolBar > QToolButton {
     Alignment: left;
-    background-color: #ff644d;
+    background-color: #c9242b;
     selection-background-color:transparent;
     border:0.5px solid #888;
     border-left: 0px;
@@ -62,26 +71,20 @@ WalletFrame {
     }
 
     QToolBar > QToolButton:checked {
-    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #ff644d, stop: 1 #ff644d);
+    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #c9242b, stop: 1 #c9242b);
     color:#000;
     }
 
     QToolBar > QToolButton:hover {
-    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #ff644d, stop: 1 #ff644d);
+    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #c9242b, stop: 1 #c9242b);
     color:#000;
     }
 
     QToolBar > QToolButton#ToolbarSpacer:hover:!selected {
-    background-color: #ff644d; /* Do not highlight placeholder on hover */
+    background-color: #c9242b; /* Do not highlight placeholder on hover */
     }
 
-    /* QToolBar {
-    background-color:#c9242b;
-    border:0px solid #000;
-    padding:0;
-    margin:0;
-    }
-    
+    /*
     QToolBar > QToolButton {
     background-color:#c9242b;
     border:0px solid #333;
