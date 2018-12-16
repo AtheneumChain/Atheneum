@@ -44,8 +44,38 @@ WalletFrame {
     background-color:#f2f0f0;
     color:#333;
     }
-    
-    QToolBar {
+    /* BEGIN MODS */
+    QToolBar > QToolButton {
+    Alignment: left;
+    background-color: #ff644d;
+    selection-background-color:transparent;
+    border:0.5px solid #888;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    min-height:2.5em;
+    padding: 0em 0em;
+    font-size: 11px;
+    color:#000;
+    width: 80px;
+    height: 60px;
+    }
+
+    QToolBar > QToolButton:checked {
+    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #ff644d, stop: 1 #ff644d);
+    color:#000;
+    }
+
+    QToolBar > QToolButton:hover {
+    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #ff644d, stop: 1 #ff644d);
+    color:#000;
+    }
+
+    QToolBar > QToolButton#ToolbarSpacer:hover:!selected {
+    background-color: #ff644d; /* Do not highlight placeholder on hover */
+    }
+
+    /* QToolBar {
     background-color:#c9242b;
     border:0px solid #000;
     padding:0;
@@ -65,7 +95,7 @@ WalletFrame {
     background-color:#fff;
     color:#333;
     font-weight:normal;
-    }
+    } */
     
     QMessageBox {
     background-color:#F8F6F6;
