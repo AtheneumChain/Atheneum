@@ -11,20 +11,20 @@ WalletFrame {
     }
     
     QStatusBar {
-    background-color:#ffffff;
+    background-color:#000;
     }
     
     .QFrame {
     background-color:transparent;
-    border:0px solid #fff;
+    border:0px solid #001;
     }
     
     QMenuBar {
-    background-color:#fff;
+    background-color:#020;
     }
     
     QMenuBar::item {
-    background-color:#fff;
+    background-color:#100;
     color:#333;
     }
     
@@ -1665,6 +1665,7 @@ WalletFrame {
     /**************************** TRANSACTIONS PAGE *****************************************/
     
     TransactionView QLineEdit { /* Address Filter */
+    background-color:#fff;
     margin-bottom:2px;
     margin-right:1px;
     min-width:111px;
@@ -1721,7 +1722,7 @@ WalletFrame {
     
     /**************************** MASTERNODE LIST *******************************************/
     QWidget#MasternodeList .QFrame#frameList {
-    background-color:#100;
+    background-color:#fff;
     }
     
     /********************************* CALENDAR WIDGET **************************************/
