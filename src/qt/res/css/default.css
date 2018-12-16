@@ -11,7 +11,7 @@ WalletFrame {
     }
     
     QStatusBar {
-    background-color:#8f6060;
+    background-color:#f8f6f6;
     }
     
     .QFrame {
@@ -20,12 +20,12 @@ WalletFrame {
     }
     
     QMenuBar {
-    background-color:#8f6060;
+    background-color:#f8f6f6;
     }
     
     QMenuBar::item {
-    background-color:#8f6060;
-    color:#FFF;
+    background-color:#f8f6f6;
+    color:#333;
     }
     
     QMenuBar::item:selected {
@@ -34,8 +34,8 @@ WalletFrame {
     }
     
     QMenu {
-    background-color:#8f6060;
-    color:#FFF;
+    background-color:#f8f6f6;
+    color:#333;
     }
     
     QMenu::item {
@@ -903,7 +903,37 @@ WalletFrame {
     font-weight:normal;
     padding-right:5px;
     }
-    
+
+/* BEGIN BLOCK */
+/* Header design for ALL tabs/pages *****************************************************/
+/* Horizontal lines */
+QFrame[frameShape="4"] { /* QFrame::HLine == 0x0004 */
+border:1px solid #ff644d;
+}
+
+/* Headers */
+QLabel#labelOverviewHeaderLeft {
+font-weight:bold;
+font-size:20px;
+background-color:#ffffff;
+}
+
+QLabel#labelOverviewHeaderRight {
+qproperty-alignment: 'AlignVCenter | AlignRight';
+background-image: url(':/images/atheneum_logo_horizontal');
+background-repeat: no-repeat;
+}
+
+QWidget .QFrame#frame_Header { /* Header with Page-Title and Ingenuity-image */
+min-width:400px;
+background-color:#ffffff;
+}
+
+QWidget .QFrame#frame_BG { /* Background */
+min-width:400px;
+background-color:#f8f6f6;
+}
+/* END BLOCK */
     /**************************** OVERVIEW SCREEN *******************************************/
     
     QWidget .QFrame#frame { /* Wallet Balance */
