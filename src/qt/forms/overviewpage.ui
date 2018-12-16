@@ -111,6 +111,9 @@
                  <bold>true</bold>
                 </font>
                </property>
+               <property name="text">
+                <string> OVERVIEW</string>
+               </property>
                <property name="alignment">
                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
                </property>
@@ -150,6 +153,9 @@
                </property>
                <property name="text">
                 <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>../res/images/atheneum_logo_horizontal.png</pixmap>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
