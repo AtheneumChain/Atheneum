@@ -11,20 +11,20 @@ WalletFrame {
     }
     
     QStatusBar {
-    background-color:#211;
+    background-color:#CCC;
     }
     
     .QFrame {
     background-color:transparent;
-    border:0px solid #211;
+    border:0px solid #CCC;
     }
     
     QMenuBar {
-    background-color:#211;
+    background-color:#CCC;
     }
     
     QMenuBar::item {
-    background-color:#211;
+    background-color:#CCC;
     color:#FFF;
     }
     
@@ -37,12 +37,12 @@ WalletFrame {
     }
     
     QMenu::item {
-    color:#FFF;
+    color:#CCC;
     }
     
     QMenu::item:selected {
     background-color:#f2f0f0;
-    color:#333;
+    color:#CCC;
     }
     
     QToolBar {
