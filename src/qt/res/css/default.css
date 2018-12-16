@@ -213,8 +213,8 @@ WalletFrame {
     }
     
     QPushButton:focus {
-    border:none;
-    outline:none;
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #FFF, stop: .25 #e04500, stop: .75 #e04500, stop: 1 #FFF);
+    border:2px solid #999;
     }
     
     QPushButton:pressed {
