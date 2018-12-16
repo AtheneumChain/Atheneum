@@ -10,6 +10,10 @@ WalletFrame {
     padding:0;
     }
     
+    QLabel#labelOverviewHeaderRight {
+        background-color: #333;
+    }
+
     QStatusBar {
     background-color:#f8f6f6;
     }
