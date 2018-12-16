@@ -11,8 +11,8 @@ WalletFrame {
     }
     
     QLabel#labelOverviewHeaderRight {
-        background-color: #333;
-        border-image: url(':/images/atheneum_logo_horizontal') 0 0 0 0 stretch stretch;
+        image: url(':/images/atheneum_logo_horizontal') 0 0 0 0 stretch stretch;
+        background-image: url(':/images/atheneum_logo_horizontal') 0 0 0 0 stretch stretch;
     }
 
     QStatusBar {
