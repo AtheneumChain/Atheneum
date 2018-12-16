@@ -208,7 +208,7 @@ WalletFrame {
     }
     
     QPushButton:hover {
-    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #000, stop: .25 #c9242b, stop: .75 #c9242b, stop: 1 #000);
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #FFF, stop: .25 #c9242b, stop: .75 #c9242b, stop: 1 #FFF);
     }
     
     QPushButton:focus {
