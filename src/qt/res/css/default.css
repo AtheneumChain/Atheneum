@@ -2,12 +2,12 @@
 /*************** [COLOR CODES] GREEN:#c9242b LIGHT GREEN:#00CD8D *****************/
 /****************************************************************************************/
 
-
 WalletFrame {
-    border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
+    /* border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch; */
     border-top:1px solid #333;
     margin:0;
     padding:0;
+    font-family: sans-serif;
     }
 
     QStatusBar {
@@ -915,7 +915,17 @@ WalletFrame {
     font-weight:normal;
     min-height:30px;
     }
+
+    QWidget .QFrame#frame { /* AEM Balances Frame */
+    qproperty-alignment: 'AlignVCenter | AlignLeft';
+    background-color:#888;
+    }
     
+    QWidget .QFrame#line_Balance { /* AEM Balances Underline */
+    qproperty-alignment: 'AlignVCenter | AlignLeft';
+    border:1px solid #F00;
+    }
+
     QWidget .QFrame#frame .QLabel#label_5 { /* AEM Balances Label */
     qproperty-alignment: 'AlignVCenter | AlignLeft';
     min-width:160px;
