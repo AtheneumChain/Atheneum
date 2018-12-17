@@ -4,6 +4,7 @@
 
 WalletFrame {
     /* border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch; */
+    background-color:#ddd;
     border-top:1px solid #333;
     margin:0;
     padding:0;
@@ -924,6 +925,15 @@ WalletFrame {
     QWidget .QFrame#line_Balance { /* AEM Balances Underline */
     qproperty-alignment: 'AlignVCenter | AlignLeft';
     border:1px solid #F00;
+    }
+
+    QWidget .QFrame#line { /* AEM Balances Underline */
+    qproperty-alignment: 'AlignVCenter | AlignLeft';
+    border:1px solid #F00;
+    }
+    
+    QWidget .QFrame#QListView { /* AEM recent tx Frame */
+    background-color: #fff;
     }
 
     QWidget .QFrame#frame .QLabel#label_5 { /* AEM Balances Label */
