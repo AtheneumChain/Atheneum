@@ -1277,8 +1277,7 @@ WalletFrame {
     margin-right:20px;
     margin-left:0;
     margin-top:0;
-    background-image: url(':/images/barback');
-    background-repeat:none;
+    background-color:transparent;
     }
     
     QWidget .QFrame#frame_2 .QLabel#label_4 { /* Recent Transactions Label */
@@ -1312,9 +1311,9 @@ WalletFrame {
     
     /**************************** SEND DIALOG ***********************************************/
     
-    QDialog#SendCoinsDialog {
+    /* QDialog#SendCoinsDialog {
     background-color:#fff;
-    }
+    } */
     
     QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
     }
@@ -1631,9 +1630,9 @@ WalletFrame {
     
     /**************************** RECEIVE COINS *********************************************/
     
-    QWidget#ReceiveCoinsDialog {
+    /*QWidget#ReceiveCoinsDialog {
     background-color:#fff;
-    }
+    }*/
     
     QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_2 { /* Label Label */
     background-color:#c9242b;
@@ -1726,12 +1725,12 @@ WalletFrame {
     }
     
     /**************************** TRANSACTIONS PAGE *****************************************/
-    QWidget#TransactionsView {
+    /* QWidget#TransactionsView {
     background-color:#fff;
     }
     TransactionsView {
     background-color:#ff5;
-    }
+    } */
 
     TransactionView QLineEdit { /* Address Filter */
     background-color:#fff;
