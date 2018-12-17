@@ -4,7 +4,7 @@
 
 WalletFrame {
     /* border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch; */
-    background-color:#ddd;
+    background-color:#FFF;
     border-top:1px solid #333;
     margin:0;
     padding:0;
@@ -933,7 +933,11 @@ WalletFrame {
     }
     
     QWidget .QListView#listTransactions { /* AEM recent tx Frame */
-    background-color: #fff;
+    background-color: #EEE;
+    }
+
+    QWidget .QFrame#frame_bal { /* AEM recent tx Frame */
+    background-color: #EEE;
     }
 
     QWidget .QFrame#frame .QLabel#label_5 { /* AEM Balances Label */
