@@ -927,12 +927,12 @@ WalletFrame {
     border:1px solid #F00;
     }
 
-    QWidget .QFrame#line { /* AEM Balances Underline */
+    QWidget .QFrame#line_tx { /* AEM Balances Underline */
     qproperty-alignment: 'AlignVCenter | AlignLeft';
     border:1px solid #F00;
     }
     
-    QWidget .QFrame#QListView { /* AEM recent tx Frame */
+    QWidget .QListView#listTransactions { /* AEM recent tx Frame */
     background-color: #fff;
     }
 
