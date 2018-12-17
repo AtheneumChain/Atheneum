@@ -58,7 +58,7 @@ WalletFrame {
     /* BEGIN MODS */
     QToolBar > QToolButton {
     Alignment: left;
-    background-color: #c9242b;
+    background-color: #3c3c3b;
     selection-background-color:transparent;
     border:0.5px solid #888;
     border-left: 0px;
@@ -73,12 +73,12 @@ WalletFrame {
     }
 
     QToolBar > QToolButton:checked {
-    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #c9242b, stop: 1 #b8131b);
+    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #3c3c3b, stop: 1 #0c0c0b);
     color:#FFF;
     }
 
     QToolBar > QToolButton:hover {
-    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #c9242b, stop: 1 #b8131b);
+    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #3c3c3b, stop: 1 #0c0c0b);
     color:#FFF;
     }
 
