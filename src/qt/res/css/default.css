@@ -932,13 +932,14 @@ WalletFrame {
     border:1px solid #F00;
     }
     
-    QWidget .QListView#listTransactions { /* AEM recent tx Frame */
+    /* AEM recent tx and balance Frames
+     QWidget .QListView#listTransactions { 
     background-color: #EEE;
     }
 
-    QWidget .QFrame#frame_bal { /* AEM recent tx Frame */
+    QWidget .QFrame#frame_bal { 
     background-color: #EEE;
-    }
+    } */
 
     QWidget .QFrame#frame .QLabel#label_5 { /* AEM Balances Label */
     qproperty-alignment: 'AlignVCenter | AlignLeft';
