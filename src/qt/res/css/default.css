@@ -1312,16 +1312,16 @@ WalletFrame {
     
     /* QDialog#SendCoinsDialog {
     background-color:#fff;
+    }
+    QDialog#SendCoinsDialog .QFrame#frameCoinControl_BG {
+    background:#FFF;
+    }
+    QDialog#SendCoinsDialog .QFrame#scrollArea { 
+    background:#FFF;
+    }
+    QDialog#SendCoinsDialog .QFrame#frameFee {
+    background:#FFF;
     } */
-    QDialog#SendCoinsDialog .QFrame#frameCoinControl_BG { /* Coin Control Section */
-    background:#FFF;
-    }
-    QDialog#SendCoinsDialog .QFrame#scrollArea { /* Coin Control Section */
-    background:#FFF;
-    }
-    QDialog#SendCoinsDialog .QFrame#frameFee { /* Coin Control Section */
-    background:#FFF;
-    }
 
     QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
     }
