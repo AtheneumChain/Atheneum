@@ -1454,7 +1454,11 @@ WalletFrame {
     }
     
     /**************************** SEND COINS ENTRY ******************************************/
-    
+
+    QStackedWidget#SendCoinsEntry {
+    background-color:#fff;
+    }
+
     QStackedWidget#SendCoinsEntry .QFrame#SendCoins > .QLabel { /* Send Coin Entry Labels */
     background-color:transparent;
     min-width:102px;
