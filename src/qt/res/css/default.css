@@ -1312,7 +1312,7 @@ WalletFrame {
     
     /* QDialog#SendCoinsDialog {
     background-color:#fff;
-    }
+    } */
     QDialog#SendCoinsDialog .QFrame#frameCoinControl_BG {
     background:#FFF;
     }
@@ -1321,7 +1321,7 @@ WalletFrame {
     }
     QDialog#SendCoinsDialog .QFrame#frameFee {
     background:#FFF;
-    } */
+    }
 
     QDialog#SendCoinsDialog .QFrame#frameCoinControl { /* Coin Control Section */
     }
