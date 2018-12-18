@@ -735,14 +735,14 @@ WalletFrame {
     
     QWidget#PrivacyDialog QLabel#zAEMLabel {
     font-size:14px;
-    color:#ffffff;
-    background-color:#c9242b;
+    color:#333;
+    background-color:transparent;
     }
     
     QWidget#PrivacyDialog QLabel#oAEMLabel {
     font-size:14px;
-    color:#ffffff;
-    background-color:#c9242b;
+    color:#333;
+    background-color:transparent;
     }
     
     QWidget#PrivacyDialog QPushButton {
@@ -997,8 +997,8 @@ WalletFrame {
     QWidget .QFrame#frame .QLabel#labelPendingText { /* Pending Balance Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1021,8 +1021,8 @@ WalletFrame {
     QWidget .QFrame#frame .QLabel#labelImmatureText { /* Immature Balance Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1045,8 +1045,8 @@ WalletFrame {
     QWidget .QFrame#frame .QLabel#labelTotalText { /* Total Balance Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1080,8 +1080,8 @@ WalletFrame {
     QWidget .QFrame#frame_4 .QLabel#labelzBalanceText { /* Available zAEM Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1100,8 +1100,8 @@ WalletFrame {
     QWidget .QFrame#frame_4 .QLabel#labelzBalanceUnconfirmedText { /* Unconfirmed zAEM Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1120,8 +1120,8 @@ WalletFrame {
     QWidget .QFrame#frame_4 .QLabel#labelzBalanceMatureText { /* Mature zAEM Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1140,8 +1140,8 @@ WalletFrame {
     QWidget .QFrame#frame_4 .QLabel#labelzBalanceImmatureText { /* Immature zAEM Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1171,8 +1171,8 @@ WalletFrame {
     QWidget .QFrame#frame_3 .QLabel#labelBalanceTextz { /* Available AEM Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1191,8 +1191,8 @@ WalletFrame {
     QWidget .QFrame#frame_3 .QLabel#labelzBalanceTextz { /* Available zAEM Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1211,8 +1211,8 @@ WalletFrame {
     QWidget .QFrame#frame_3 .QLabel#labelLockedBalanceText { /* Available zAEM Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1231,8 +1231,8 @@ WalletFrame {
     QWidget .QFrame#frame_3 .QLabel#labelUnLockedBalanceText { /* Available zAEM Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1251,8 +1251,8 @@ WalletFrame {
     QWidget .QFrame#frame_3 .QLabel#labelTotalTextz { /* Available total Label */
     qproperty-alignment: 'AlignVCenter | AlignRight';
     min-width:160px;
-    background-color:#c9242b;
-    color:#fff;
+    background-color:transparent;
+    color:#333;
     margin-right:5px;
     padding-right:5px;
     font-weight:normal;
@@ -1456,18 +1456,18 @@ WalletFrame {
     /**************************** SEND COINS ENTRY ******************************************/
     
     QStackedWidget#SendCoinsEntry .QFrame#SendCoins > .QLabel { /* Send Coin Entry Labels */
-    background-color:#c9242b;
+    background-color:transparent;
     min-width:102px;
     font-weight:normal;
     font-size:14px;
-    color:#ffffff;
+    color:#333;
     min-height:25px;
     margin-right:5px;
     padding-right:5px;
     }
     
     QStackedWidget#SendCoinsEntry .QFrame#SendCoins .QLabel#amountLabel {
-    background-color:#6a6a6a;
+    background-color:transparent;
     }
     
     QStackedWidget#SendCoinsEntry .QValidatedLineEdit#payTo { /* Pay To Input Field */
@@ -1643,27 +1643,27 @@ WalletFrame {
     }*/
     
     QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_2 { /* Label Label */
-    background-color:#c9242b;
+    background-color:transparent;
     min-width:102px;
-    color:#ffffff;
+    color:#333;
     font-weight:normal;
     font-size:14px;
     padding-right:5px;
     }
     
     QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
-    background-color:#eee;
+    background-color:transparent;
     min-width:102px;
-    color:#ffffff;
+    color:#333;
     font-weight:normal;
     font-size:14px;
     padding-right:5px;
     }
     
     QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_3 { /* Message Label */
-    background-color:#c9242b;
+    background-color:transparent;
     min-width:102px;
-    color:#ffffff;
+    color:#333;
     font-weight:normal;
     font-size:14px;
     padding-right:5px;
@@ -1825,9 +1825,4 @@ WalletFrame {
     color:#818181;
     }
     
-QLabel#labelOverviewHeaderRight {
-qproperty-alignment: 'AlignVCenter | AlignRight';
-background-image: url(':/images/atheneum_logo_horizontal');
-background-repeat: no-repeat;
-}
     
