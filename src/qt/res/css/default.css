@@ -3,7 +3,7 @@
 /****************************************************************************************/
 
 WalletFrame {
-    border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch;
+    /* border-image: url(':/images/walletFrame_bg') 0 0 0 0 stretch stretch; */
     border-top:1px solid #333;
     margin:0;
     padding:0;
