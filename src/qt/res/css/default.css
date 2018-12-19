@@ -1646,7 +1646,13 @@ WalletFrame {
     /*QWidget#ReceiveCoinsDialog {
     background-color:#fff;
     }*/
-    
+    QWidget#ReceiveCoinsDialog .QFrame#frame2 { 
+    background-color:#fff;
+    }
+    QWidget#ReceiveCoinsDialog .QFrame#frame { 
+    background-color:#fff;
+    }
+
     QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_2 { /* Label Label */
     background-color:transparent;
     min-width:102px;
