@@ -87,7 +87,7 @@ WalletFrame {
     }
 
     QToolBar > QToolButton#ToolbarSpacer {
-    height:0px;
+    background-image: url(':/images/aemsmall');
     }
 
     /*
