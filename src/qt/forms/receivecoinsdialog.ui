@@ -4,9 +4,9 @@
  <widget class="QWidget" name="ReceiveCoinsDialog">
   <property name="geometry">
    <rect>
-    <x>0</x>
+    <x>0</x> 
     <y>0</y>
-    <width>962</width>
+    <width>978</width>
     <height>616</height>
    </rect>
   </property>
