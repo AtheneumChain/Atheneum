@@ -88,6 +88,8 @@ WalletFrame {
 
     QToolBar > QToolButton#ToolbarSpacer {
     background-image: url(':/images/aemsmall');
+    qproperty-alignment: 'AlignVCenter | AlignCenter';
+    background-repeat: no-repeat;
     }
 
     /*
