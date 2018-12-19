@@ -83,7 +83,7 @@ WalletFrame {
     }
 
     QToolBar > QToolButton#ToolbarSpacer:hover:!selected {
-    background-color: #b8131b; /* Do not highlight placeholder on hover */
+    /* background-color: #b8131b;  Do not highlight placeholder on hover */
     }
 
     /*
