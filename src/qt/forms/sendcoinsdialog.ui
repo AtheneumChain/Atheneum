@@ -79,7 +79,7 @@
              </font>
             </property>
             <property name="text">
-             <string>SEND</string>
+             <string> SEND</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
