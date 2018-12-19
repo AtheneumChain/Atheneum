@@ -911,9 +911,10 @@ WalletFrame {
     }
 
 QLabel#labelOverviewHeaderRight {
-qproperty-alignment: 'AlignVCenter | AlignRight';
 background-image: url(':/images/atheneum_logo_horizontal');
+background-position: center center;
 background-repeat: no-repeat;
+
 border: 0 solid #000;
 }
 QFrame#frame_Header {
