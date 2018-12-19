@@ -908,6 +908,7 @@ QLabel#labelOverviewHeaderRight {
 qproperty-alignment: 'AlignVCenter | AlignRight';
 background-image: url(':/images/atheneum_logo_horizontal');
 background-repeat: no-repeat;
+border: 0 solid #000;
 }
 QFrame#frame_Header {
 background: #FFF;
@@ -926,11 +927,11 @@ background: #FFF;
     min-width:490px;
     }
     
-    QWidget .QFrame#frame > .QLabel {
+    /* QWidget .QFrame#frame > .QLabel {
     min-width:190px;
     font-weight:normal;
     min-height:30px;
-    }
+    } */
 
     QWidget .QFrame#frame { /* AEM Balances Frame */
     qproperty-alignment: 'AlignVCenter | AlignLeft';
