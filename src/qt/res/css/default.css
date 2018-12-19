@@ -909,7 +909,9 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 background-image: url(':/images/atheneum_logo_horizontal');
 background-repeat: no-repeat;
 }
-
+QFrame#frame_Header {
+background: #FFF;
+}
     /**************************** OVERVIEW SCREEN *******************************************/
     
     QWidget .QFrame#frame { /* Wallet Balance */
