@@ -935,7 +935,7 @@ background: #FFF;
 
     QWidget .QFrame#frame { /* AEM Balances Frame */
     qproperty-alignment: 'AlignVCenter | AlignLeft';
-    background-color:#EEE;
+    /* background-color:#EEE; */
     }
     
     QWidget .QFrame#line_Balance { /* AEM Balances Underline */
@@ -950,11 +950,11 @@ background: #FFF;
     
     /* AEM recent tx and balance Frames
      QWidget .QListView#listTransactions { 
-    background-color: #EEE;
+    /* background-color:#EEE; */
     }
 
     QWidget .QFrame#frame_bal { 
-    background-color: #EEE;
+    /* background-color:#EEE; */
     } */
 
     QWidget .QFrame#frame .QLabel#label_5 { /* AEM Balances Label */
