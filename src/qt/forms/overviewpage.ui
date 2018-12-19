@@ -151,14 +151,8 @@
                  <pointsize>14</pointsize>
                 </font>
                </property>
-               <property name="autoFillBackground">
-                <bool>false</bool>
-               </property>
                <property name="text">
                 <string/>
-               </property>
-               <property name="scaledContents">
-                <bool>false</bool>
                </property>
                <property name="alignment">
                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
