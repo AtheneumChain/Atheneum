@@ -904,6 +904,12 @@ WalletFrame {
     padding-right:5px;
     }
 
+QLabel#labelOverviewHeaderRight {
+qproperty-alignment: 'AlignVCenter | AlignRight';
+background-image: url(':/images/atheneum_logo_horizontal');
+background-repeat: no-repeat;
+}
+
     /**************************** OVERVIEW SCREEN *******************************************/
     
     QWidget .QFrame#frame { /* Wallet Balance */
