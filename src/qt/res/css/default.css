@@ -1313,6 +1313,15 @@ WalletFrame {
     /* QDialog#SendCoinsDialog {
     background-color:#fff;
     } */
+
+QStackedWidget#SendCoinsEntry .QFrame#SendCoins > .QLabel { /* Send Coin Entry Labels */
+min-width:10px;
+font-weight:bold;
+min-height:25px;
+margin-right:5px;
+padding-right:5px;
+}
+
     QDialog#SendCoinsDialog .QFrame#frameCoinControl_BG {
     background:#FFF;
     }
