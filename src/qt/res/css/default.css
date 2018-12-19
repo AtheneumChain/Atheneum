@@ -912,8 +912,16 @@ background-repeat: no-repeat;
 QFrame#frame_Header {
 background: #FFF;
 }
+
     /**************************** OVERVIEW SCREEN *******************************************/
-    
+
+QFrame#frame_RecentTransactions {
+background: #FFF;
+}
+QFrame#frameObfuscation {
+background: #FFF;
+}
+
     QWidget .QFrame#frame { /* Wallet Balance */
     min-width:490px;
     }
@@ -1804,7 +1812,7 @@ background: #FFF;
     }
     
     QWidget#PrivacyDialog .QFrame#frame_Content {
-    background-color:#f8f6f6;
+    background-color:#ffffff;
     }
     
     QWidget#PrivacyDialog .QFrame#verticalFrameLeft {
