@@ -6,8 +6,8 @@ GZIP_ENV="-9n"
 export PYTHONPATH
 
 BITCOIND_BIN=$(top_builddir)/src/pivxd$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/pivx-qt$(EXEEXT)
-BITCOIN_CLI_BIN=$(top_builddir)/src/pivx-cli$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/atheneum-qt$(EXEEXT)
+BITCOIN_CLI_BIN=$(top_builddir)/src/atheneum-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
 empty :=
