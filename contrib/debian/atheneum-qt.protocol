@@ -1,6 +1,6 @@
 [Protocol]
-exec=pivx-qt '%u'
-protocol=pivx
+exec=atheneum-qt '%u'
+protocol=atheneum
 input=none
 output=none
 helper=true

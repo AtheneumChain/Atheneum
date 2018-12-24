@@ -7,7 +7,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/atheneum-config.h"
 #endif
 
 #include "util.h"
@@ -232,8 +232,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "pivx" is a composite category enabling all AEM-related debug output
-            if (ptrCategory->count(string("pivx"))) {
+            // "atheneum" is a composite category enabling all AEM-related debug output
+            if (ptrCategory->count(string("atheneum"))) {
                 ptrCategory->insert(string("obfuscation"));
                 ptrCategory->insert(string("swifttx"));
                 ptrCategory->insert(string("masternode"));
@@ -421,7 +421,7 @@ boost::filesystem::path GetDefaultDataDir()
 // Windows < Vista: C:\Documents and Settings\Username\Application Data\AEM
 // Windows >= Vista: C:\Users\Username\AppData\Roaming\AEM
 // Mac: ~/Library/Application Support/AEM
-// Unix: ~/.pivx
+// Unix: ~/.atheneum
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Atheneum";

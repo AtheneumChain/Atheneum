@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between pivx-cli and pivxd)
+ * CBaseChainParams defines the base parameters (shared between atheneum-cli and atheneumd)
  * of a given instance of the AEM system.
  */
 class CBaseChainParams

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Atheneum
+Comment=Atheneum P2P Cryptocurrency
+Comment[fr]=Atheneum, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Atheneum, eşten eşe kriptografik sanal para birimi
+Exec=atheneum-qt %u
+Terminal=false
+Type=Application
+Icon=atheneum128
+MimeType=x-scheme-handler/atheneum;
+Categories=Office;Finance;

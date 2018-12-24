@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  pivxd The AEM core server.
+#  atheneumd The AEM core server.
 #
 #
 # chkconfig: 345 80 20
-# description: pivxd
-# processname: pivxd
+# description: atheneumd
+# processname: atheneumd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/pivxd, see below
-if [ -f /etc/sysconfig/pivxd ]; then
-        . /etc/sysconfig/pivxd
+# you can override defaults in /etc/sysconfig/atheneumd, see below
+if [ -f /etc/sysconfig/atheneumd ]; then
+        . /etc/sysconfig/atheneumd
 fi
 
 RETVAL=0
 
-prog=pivxd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/pivxd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/pivxd}
+prog=atheneumd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/atheneumd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/atheneumd}
 
-# pivxd defaults to /usr/bin/pivxd, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/pivxd}
+# atheneumd defaults to /usr/bin/atheneumd, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/atheneumd}
 
-# pivxd opts default to -disablewallet, override with BITCOIND_OPTS
+# atheneumd opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

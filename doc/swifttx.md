@@ -12,8 +12,8 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftTX
 
 This mechanism has been integrated into Bitcore-Node-AEM which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/AEM-Project/insight-api-pivx#web-socket-api](https://github.com/AEM-Project/insight-api-pivx#web-socket-api) 
-* API: [https://github.com/AEM-Project/insight-api-pivx#swifttx-transactions](https://github.com/AEM-Project/insight-api-pivx#swifttx-transactions) 
+* WebSocket: [https://github.com/AtheneumChain/insight-api-atheneum#web-socket-api](https://github.com/AtheneumChain/insight-api-atheneum#web-socket-api) 
+* API: [https://github.com/AtheneumChain/insight-api-atheneum#swifttx-transactions](https://github.com/AtheneumChain/insight-api-atheneum#swifttx-transactions) 
 
 ####Command line option
 

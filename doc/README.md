@@ -3,7 +3,7 @@ Atheneum
 
 Setup
 ---------------------
-[Atheneum](http://pivx.org/wallet) is the original AEM client and it builds the backbone of the network. However, it downloads and stores the entire history of AEM transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Atheneum](http://atheneumchain.io) is the original AEM client and it builds the backbone of the network. However, it downloads and stores the entire history of AEM transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -13,23 +13,23 @@ The following are some helpful notes on how to run AEM on your native platform.
 
 Unpack the files into a directory and run:
 
-- bin/32/pivx-qt (GUI, 32-bit) or bin/32/pivxd (headless, 32-bit)
-- bin/64/pivx-qt (GUI, 64-bit) or bin/64/pivxd (headless, 64-bit)
+- bin/32/atheneum-qt (GUI, 32-bit) or bin/32/atheneumd (headless, 32-bit)
+- bin/64/atheneum-qt (GUI, 64-bit) or bin/64/atheneumd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run pivx-qt.exe.
+Unpack the files into a directory, and then run atheneum-qt.exe.
 
 ### OSX
 
-Drag AEM-Qt to your applications folder, and then run AEM-Qt.
+Drag Atheneum-Qt to your applications folder, and then run Atheneum-Qt.
 
 ### Need Help?
 
 * See the documentation at the [AEM Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [AEM Forum](http://forum.pivx.org/).
-* Join one of our Slack groups [AEM Slack Groups](https://pivx.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [AEM Forum](http://forum.atheneumchain.io/).
+
 
 Building
 ---------------------
@@ -41,7 +41,7 @@ The following are developer notes on how to build AEM on your native platform. T
 
 Development
 ---------------------
-The Pivx repo's [root README](https://github.com/AEM-Project/AEM/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Atheneum repo's [root README](https://github.com/AtheneumChain/Atheneum/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,7 @@ The Pivx repo's [root README](https://github.com/AEM-Project/AEM/blob/master/REA
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [AEM](http://forum.pivx.org/) forum.
-* Join the [AEM-Dev](https://pivx-dev.slack.com/) Slack group ([Sign-Up](https://pivx-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [AEM](http://forum.atheneumchain.io/) forum.
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

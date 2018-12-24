@@ -1,13 +1,13 @@
 Atheneum version 2.3.1 is now available from:
 
-  <https://github.com/pivx-project/pivx/releases>
+  <https://github.com/AtheneumChain/Atheneum/releases>
 
 This is a new minor version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/pivx-project/pivx/issues>
+  <https://github.com/AtheneumChain/Atheneum/issues>
 
 Compatibility
 ==============
@@ -93,7 +93,7 @@ Result: (for other sets):
 }
 
 Examples:
-> pivx-cli masternodestart "alias" "my_mn"
+> atheneum-cli masternodestart "alias" "my_mn"
 > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "masternodestart", "params": ["alias" "my_mn"] }' -H 'content-type: text/plain;' http://127.0.0.1:51473/
 ```
 
@@ -128,7 +128,7 @@ Result:
 }
 
 Examples:
-> pivx-cli mnvote "local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"
+> atheneum-cli mnvote "local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"
 > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "mnvote", "params": ["local" "ed2f83cedee59a91406f5f47ec4d60bf5a7f9ee6293913c82976bd2d3a658041" "yes"] }' -H 'content-type: text/plain;' http://127.0.0.1:51473/
 ```
 
@@ -170,7 +170,7 @@ Result:
 ]
 
 Examples:
-> pivx-cli getbudgetprojection
+> atheneum-cli getbudgetprojection
 > curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getbudgetprojection", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:51473/
 ```
 
@@ -205,4 +205,4 @@ Thanks to everyone who directly contributed to this release:
 - Mrs-X
 - amirabrams
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/pivx-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/atheneum-project-translations/).

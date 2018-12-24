@@ -19,10 +19,10 @@ BEGIN
             VALUE "CompanyName",        "AEM"
             VALUE "FileDescription",    "AEM-cli (OSS RPC client for AEM)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "pivx-cli"
+            VALUE "InternalName",       "atheneum-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "pivx-cli.exe"
+            VALUE "OriginalFilename",   "atheneum-cli.exe"
             VALUE "ProductName",        "AEM-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
