@@ -793,8 +793,6 @@
                       </spacer>
                      </item>
                     </layout>
-                    <zorder>layoutWidget</zorder>
-                    <zorder>verticalSpacer</zorder>
                     <zorder>line_tx</zorder>
                     <zorder>listTransactions</zorder>
                    </widget>
