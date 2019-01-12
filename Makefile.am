@@ -2,7 +2,6 @@ ACLOCAL_AMFLAGS = -I build-aux/m4
 SUBDIRS = src
 .PHONY: deploy FORCE
 
-GZIP_ENV="-9n"
 export PYTHONPATH
 
 BITCOIND_BIN=$(top_builddir)/src/atheneumd$(EXEEXT)
@@ -53,9 +52,6 @@ distcheck-hook:
 	$(MKDIR_P) $(top_distdir)/_build/src/leveldb
 	cp -rf $(top_srcdir)/src/leveldb/* $(top_distdir)/_build/src/leveldb/
 	-$(MAKE) -C $(top_distdir)/_build/src/leveldb clean
-
-distcleancheck:
-	@:
 
 $(BITCOIN_WIN_INSTALLER): all-recursive
 	$(MKDIR_P) $(top_builddir)/release
