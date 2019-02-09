@@ -185,12 +185,15 @@ BITCOIN_QT_H = \
   qt/winshutdownmonitor.h
 
 RES_ICONS = \
-  qt/res/icons/add.png \
-  qt/res/icons/address-book.png \
   qt/res/icons/bitcoin.ico \
   qt/res/icons/bitcoin.png \
   qt/res/icons/bitcoin_testnet.ico \
   qt/res/icons/bitcoin_testnet.png \
+  qt/res/icons/tx_inout.png \
+  qt/res/icons/tx_input.png \
+  qt/res/icons/tx_output.png \
+  qt/res/icons/add.png \
+  qt/res/icons/address-book.png \
   qt/res/icons/browse.png \
   qt/res/icons/clock1.png \
   qt/res/icons/clock2.png \
@@ -218,7 +221,6 @@ RES_ICONS = \
   qt/res/icons/lock_closed.png \
   qt/res/icons/lock_open.png \
   qt/res/icons/masternodes.png \
-  qt/res/icons/overview.png \
   qt/res/icons/qrcode.png \
   qt/res/icons/quit.png \
   qt/res/icons/receive.png \
@@ -232,16 +234,113 @@ RES_ICONS = \
   qt/res/icons/transaction0.png \
   qt/res/icons/transaction2.png \
   qt/res/icons/transaction_conflicted.png \
-  qt/res/icons/tx_inout.png \
-  qt/res/icons/tx_input.png \
-  qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
   qt/res/icons/unit_aem.png \
   qt/res/icons/unit_maem.png \
   qt/res/icons/unit_uaem.png \
   qt/res/icons/unit_taem.png \
   qt/res/icons/unit_tmaem.png \
-  qt/res/icons/unit_tuaem.png
+  qt/res/icons/unit_tuaem.png \
+  qt/res/icons/dark/add.png \
+  qt/res/icons/dark/address-book.png \
+  qt/res/icons/dark/browse.png \
+  qt/res/icons/dark/clock1.png \
+  qt/res/icons/dark/clock2.png \
+  qt/res/icons/dark/clock3.png \
+  qt/res/icons/dark/clock4.png \
+  qt/res/icons/dark/clock5.png \
+  qt/res/icons/dark/configure.png \
+  qt/res/icons/dark/connect0_16.png \
+  qt/res/icons/dark/connect1_16.png \
+  qt/res/icons/dark/connect2_16.png \
+  qt/res/icons/dark/connect3_16.png \
+  qt/res/icons/dark/connect4_16.png \
+  qt/res/icons/dark/debugwindow.png \
+  qt/res/icons/dark/edit.png \
+  qt/res/icons/dark/editcopy.png \
+  qt/res/icons/dark/editpaste.png \
+  qt/res/icons/dark/explorer.png \
+  qt/res/icons/dark/export.png \
+  qt/res/icons/dark/eye.png \
+  qt/res/icons/dark/eye_minus.png \
+  qt/res/icons/dark/eye_plus.png \
+  qt/res/icons/dark/filesave.png \
+  qt/res/icons/dark/history.png \
+  qt/res/icons/dark/key.png \
+  qt/res/icons/dark/lock_closed.png \
+  qt/res/icons/dark/lock_open.png \
+  qt/res/icons/dark/masternodes.png \
+  qt/res/icons/dark/overview.png \
+  qt/res/icons/dark/qrcode.png \
+  qt/res/icons/dark/quit.png \
+  qt/res/icons/dark/receive.png \
+  qt/res/icons/dark/privacy.png \
+  qt/res/icons/dark/remove.png \
+  qt/res/icons/dark/send.png \
+  qt/res/icons/dark/staking_active.png \
+  qt/res/icons/dark/staking_inactive.png \
+  qt/res/icons/dark/synced.png \
+  qt/res/icons/dark/trade.png \
+  qt/res/icons/dark/transaction0.png \
+  qt/res/icons/dark/transaction2.png \
+  qt/res/icons/dark/transaction_conflicted.png \
+  qt/res/icons/dark/tx_mined.png \
+  qt/res/icons/dark/unit_aem.png \
+  qt/res/icons/dark/unit_maem.png \
+  qt/res/icons/dark/unit_uaem.png \
+  qt/res/icons/dark/unit_taem.png \
+  qt/res/icons/dark/unit_tmaem.png \
+  qt/res/icons/dark/unit_tuaem.png \
+  qt/res/icons/default/add.png \
+  qt/res/icons/default/address-book.png \
+  qt/res/icons/default/browse.png \
+  qt/res/icons/default/clock1.png \
+  qt/res/icons/default/clock2.png \
+  qt/res/icons/default/clock3.png \
+  qt/res/icons/default/clock4.png \
+  qt/res/icons/default/clock5.png \
+  qt/res/icons/default/configure.png \
+  qt/res/icons/default/connect0_16.png \
+  qt/res/icons/default/connect1_16.png \
+  qt/res/icons/default/connect2_16.png \
+  qt/res/icons/default/connect3_16.png \
+  qt/res/icons/default/connect4_16.png \
+  qt/res/icons/default/debugwindow.png \
+  qt/res/icons/default/edit.png \
+  qt/res/icons/default/editcopy.png \
+  qt/res/icons/default/editpaste.png \
+  qt/res/icons/default/explorer.png \
+  qt/res/icons/default/export.png \
+  qt/res/icons/default/eye.png \
+  qt/res/icons/default/eye_minus.png \
+  qt/res/icons/default/eye_plus.png \
+  qt/res/icons/default/filesave.png \
+  qt/res/icons/default/history.png \
+  qt/res/icons/default/key.png \
+  qt/res/icons/default/lock_closed.png \
+  qt/res/icons/default/lock_open.png \
+  qt/res/icons/default/masternodes.png \
+  qt/res/icons/default/overview.png \
+  qt/res/icons/default/qrcode.png \
+  qt/res/icons/default/quit.png \
+  qt/res/icons/default/receive.png \
+  qt/res/icons/default/privacy.png \
+  qt/res/icons/default/remove.png \
+  qt/res/icons/default/send.png \
+  qt/res/icons/default/staking_active.png \
+  qt/res/icons/default/staking_inactive.png \
+  qt/res/icons/default/synced.png \
+  qt/res/icons/default/trade.png \
+  qt/res/icons/default/transaction0.png \
+  qt/res/icons/default/transaction2.png \
+  qt/res/icons/default/transaction_conflicted.png \
+  qt/res/icons/default/tx_mined.png \
+  qt/res/icons/default/unit_aem.png \
+  qt/res/icons/default/unit_maem.png \
+  qt/res/icons/default/unit_uaem.png \
+  qt/res/icons/default/unit_taem.png \
+  qt/res/icons/default/unit_tmaem.png \
+  qt/res/icons/default/unit_tuaem.png
 
 BITCOIN_QT_CPP = \
   qt/bitcoinaddressvalidator.cpp \
@@ -312,6 +411,8 @@ RES_IMAGES = \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
   qt/res/images/atheneum_logo_horizontal.png \
+  qt/res/images/atheneum_logo_horizontal_dark.png \
+  qt/res/images/walletFrame_bg_dark.png \
   qt/res/images/downArrow.png \
   qt/res/images/downArrow_small.png \
   qt/res/images/upArrow_small.png \
@@ -319,11 +420,11 @@ RES_IMAGES = \
   qt/res/images/rightArrow_small.png \
   qt/res/images/qtreeview_selected.png \
   qt/res/images/walletFrame.png \
-  qt/res/images/walletFrame_bg.png \
   qt/res/images/walletFrame_bg.png
 
 RES_CSS = \
-  qt/res/css/default.css
+  qt/res/css/default.css \
+  qt/res/css/dark.css
 
 RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.svg)
 
