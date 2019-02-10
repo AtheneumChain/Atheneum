@@ -83,17 +83,7 @@ OptionsDialog::OptionsDialog(QWidget* parent, bool enableWallet) : QDialog(paren
     
     /* Theme selector static themes */
     ui->theme->addItem(QString("Default"), QVariant("default"));
-
-    /* Theme selector external themes */
-    boost::filesystem::path pathAddr = GetDataDir() / "themes";
-    QDir dir(pathAddr.string().c_str());
-    dir.setFilter(QDir::Dirs | QDir::NoSymLinks | QDir::NoDotAndDotDot);
-    QFileInfoList list = dir.entryInfoList();
-
-    for (int i = 0; i < list.size(); ++i) {
-        QFileInfo fileInfo = list.at(i);
-        ui->theme->addItem(fileInfo.fileName(), QVariant(fileInfo.fileName()));
-    }
+    ui->theme->addItem(QString("AEM_dark"), QVariant("dark"));
 
     /* Language selector */
     QDir translations(":translations");
