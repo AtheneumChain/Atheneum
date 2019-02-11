@@ -980,7 +980,7 @@ background: transparent; /*#FFF;*/
     border:1px solid #0F2B5B;
     }
     
-    AEM recent tx and balance Frames
+    /*AEM recent tx and balance Frames*/
      QWidget .QListView#listTransactions { 
     background-color:transparent; /*#FFF;*/
     }
