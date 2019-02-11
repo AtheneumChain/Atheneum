@@ -101,6 +101,8 @@ public:
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 1000;
         nMaxMoneyOut = 100000000 * COIN;
+        nEnforceNewSporkKey = 1551117600; // Monday Feb 25th : 6pm UTC
+        nRejectOldSporkKey = 1552327200;  // Monday Mar 11th : 6pm UTC
 
         const char* pszTimestamp = "AEM replacing the EMBER chain";
         CMutableTransaction txNew;
@@ -141,7 +143,8 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "0484698d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50";
+        strSporkKey = "04ea19cc3753982f387944f524be6afa3d548b0ccdd4f4408ef11cd33258c52a6cfe16977ba6c7e2eae45b6854c7333d5cf805e153737fd56fc9f833ed32c13f37";
+        strSporkKeyOld = "0484698d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50";
         strObfuscationPoolDummyAddress = "D87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";
         nStartMasternodePayments = genesis.nTime + 5400;
     }
