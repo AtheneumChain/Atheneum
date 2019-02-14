@@ -1,7 +1,3 @@
-/****************************************************************************************/
-/*************** [COLOR CODES] GREEN:#FF4B36 LIGHT GREEN:#00CD8D *****************/
-/****************************************************************************************/
-
 WalletFrame {
     border-image: url(':/images/walletFrame_bg_dark') 0 0 0 0 stretch stretch;
     margin:0;
@@ -19,32 +15,32 @@ WalletFrame {
     }
     
     QMenuBar {
-    background-color:#f8f6f6;
+    background-color:#2C2128;
     }
     
     QMenuBar::item {
-    background-color:#f8f6f6;
-    color:#fff;
+    background-color:#2C2128;
+    color:#FFFFFF;
     }
     
     QMenuBar::item:selected {
-    background-color:#f8f6f6;
-    color:#ffffff;
+    background-color:#2C2130;
+    color:#FFFFFF;
     }
     
     QMenu {
-    background-color:#f8f6f6;
-    color:#ffffff;
+    background-color:#2C2128;
+    color:#FFFFFF;
     }
     
     QMenu::item {
-    background-color:#f8f6f6;
-    color:#ffffff;
+    background-color:#2C2128;
+    color:#FFFFFF;
     }
     
     QMenu::item:selected {
-    background-color:#f2f0f0;
-    color:#ffffff;
+    background-color:#2C2130;
+    color:#FFFFFF;
     }
 
     QToolBar {
@@ -72,12 +68,12 @@ WalletFrame {
     }
 
     QToolBar > QToolButton:checked {
-    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #2C2128, stop: 1 #0c0c0b);
+    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #FFFFFF, stop: 0.07 #FFFFFF, stop: 0.0701 #2C2128, stop: 1 #0c0c0b);
     color:#FFF;
     }
 
     QToolBar > QToolButton:hover {
-    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #2C2128, stop: 1 #0c0c0b);
+    background-color: qlineargradient(x1:0, x2: 1, stop: 0 #FFFFFF, stop: 0.07 #FFFFFF, stop: 0.0701 #2C2128, stop: 1 #0c0c0b);
     color:#FFF;
     }
 
@@ -89,21 +85,21 @@ WalletFrame {
     min-height:2.5em;
     padding: 0em 1em;
     font-weight:normal;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QToolBar > QToolButton:checked {
-    background-color:#fff;
+    background-color:#FFFFFF;
     color:#333;
     font-weight:normal;
     } */
     
     QMessageBox {
-    background-color:#F8F6F6;
+    background-color:#2C2128;
     }
     
     QProgressBar {
-    color:#fff;
+    color:#FFFFFF;
     border:2px solid #333;
     border-radius:5px;
     background-color:transparent;
@@ -125,7 +121,7 @@ WalletFrame {
     
     QTabBar {
     background-color:transparent;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QTabBar::tab:hover:!selected {
@@ -134,38 +130,38 @@ WalletFrame {
     
     QWidget {
     selection-background-color:#29727C; /* Object highlight color */
-    selection-color:#fff;
+    selection-color:#FFFFFF;
     outline:0; /* Remove Annoying Focus Rectangle */
     }
     
     QGroupBox {
     background-color: transparent;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QToolTip {
     background-color:#2C2128;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QTextEdit {
     background-color:#2C2128;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     /****************************************************************************************/
     
     QLabel { /* Base Text Size & Color */
     font-size:14px;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     .QRadioButton { /* Radio Button Labels */
-    color:#fff;
+    color:#FFFFFF;
     }
     
     .QCheckBox { /* Checkbox Labels */
-    color:#fff;
+    color:#FFFFFF;
     background-color:transparent;
     }
     
@@ -180,7 +176,7 @@ WalletFrame {
     outline:0;
     padding:3px;
     background-color:#2C2128;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     .QLineEdit:!focus {
@@ -197,7 +193,7 @@ WalletFrame {
     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #cba4a6, stop: .15 #FF4B36, stop: .85 #FF4B36, stop: 1 #7c0006);
     border:1px solid #bbb;
     border-radius:3px;
-    color:#ffffff;
+    color:#FFFFFF;
     font-size:14px;
     font-weight:normal;
     padding-left:25px;
@@ -267,7 +263,7 @@ WalletFrame {
     }
     
     QComboBox::item:alternate {
-    background:#fff;
+    background:#FFFFFF;
     }
     
     QComboBox::item:selected {
@@ -287,7 +283,7 @@ WalletFrame {
     padding: 3px 5px 3px 5px;
     background:#2C2128;
     min-height:25px;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QAbstractSpinBox::up-button {
@@ -336,7 +332,7 @@ WalletFrame {
     QHeaderView::section { /* Table Header Sections */
     qproperty-alignment:center;
     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 0.25, stop: 0 #FF4B36, stop: 1 #FF4B36);
-    color:#fff;
+    color:#FFFFFF;
     min-height:25px;
     font-weight:normal;
     font-size:14px;
@@ -364,7 +360,7 @@ WalletFrame {
     
     QTableView::item { /* Table Item */
     background-color:#2C2128;
-    color:#fff;
+    color:#FFFFFF;
     font-size:14px;
     }
     
@@ -386,7 +382,7 @@ WalletFrame {
     QTreeWidget { /* Tree Background */
     background-color:#2C2128;
     alternate-background-color:transparent;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QScrollBar { /* Scroll Bar */
@@ -395,14 +391,14 @@ WalletFrame {
     
     QScrollBar:vertical { /* Vertical Scroll Bar Attributes */
     border:0;
-    background:#ffffff;
+    background:#FFFFFF;
     width:18px;
     margin:18px 0px 18px 0px;
     }
     
     QScrollBar:horizontal { /* Horizontal Scroll Bar Attributes */
     border:0;
-    background:#ffffff;
+    background:#FFFFFF;
     height:18px;
     margin:0px 18px 0px 18px;
     }
@@ -525,13 +521,13 @@ WalletFrame {
     }
     
     QDialog .QTabWidget QTabBar::tab:selected, QDialog .QTabWidget QTabBar::tab:hover {
-    background-color:#ffffff;
+    background-color:#FFFFFF;
     color:#333;
     }
     
     QDialog .QTabWidget .QWidget {
     background-color: transparent;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QDialog .QTabWidget .QWidget QAbstractSpinBox {
@@ -775,11 +771,11 @@ WalletFrame {
     }
     
     QDialog#RPCConsole QTableView#peerWidget::item { /* Peers Table Items */
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QDialog#RPCConsole QTableView#peerWidget::item:selected {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     color: #000;
     }
 
@@ -791,7 +787,7 @@ WalletFrame {
     QDialog#RPCConsole QTextEdit#messagesWidget { /* Console Messages Window */
     border:0;
     background-color:#2C2128;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QDialog#RPCConsole QLineEdit#lineEdit { /* Console Input */
@@ -809,7 +805,7 @@ WalletFrame {
     }
     
     QDialog#RPCConsole .QGroupBox #line_2 { /* Network Out Line */
-    background:#fff;
+    background:#FFFFFF;
     }
     
     /**************************** HELP MENU *************************************************/
@@ -840,43 +836,58 @@ WalletFrame {
     padding-right:5px;
     }
 
-QLabel#labelOverviewHeaderRight {
-background-image: url(':/images/atheneum_logo_horizontal_dark') 0 0 0 0 auto auto;
-background-position: center;
-background-repeat: no-repeat;
+	QLabel#labelOverviewHeaderRight {
+	background-image: url(':/images/atheneum_logo_horizontal_dark') 0 0 0 0 auto auto;
+	background-position: center;
+	background-repeat: no-repeat;
 
-border: 0 solid #000;
-}
-QFrame#frame_Header {
-background: transparent;
-}
+	border: 0 solid #000;
+	}
+	QFrame#frame_Header {
+	background: transparent;
+	}
 
-    /**************************** OVERVIEW SCREEN *******************************************/
+	    /**************************** OVERVIEW SCREEN *******************************************/
+	QFrame#frame_RecentTransactions {
+	background: transparent; /*#FFF;*/
+	}
+	QFrame#frameObfuscation {
+	background: transparent; /*#FFF;*/
+	}
 
-QFrame#frame_RecentTransactions {
-background: transparent;
-color: #ffffff;
-}
-QFrame#frameObfuscation {
-background: transparent;
-color: #ffffff;
-}
-
-
-    QWidget .QFrame#frame { /* Wallet Balance */
+	QWidget .QFrame#frame { /* Wallet Balance */
     min-width:490px;
-    background-color: transparent;
-    color: #ffffff;
     }
-    
-    QWidget .QFrame#frame > .QLabel {
-    color: white;
+
+    QFrame#labelBalance {
+        font-weight:normal;
+        font-size:20px;
+        color:#FFFFFF;
+    }
+    QFrame#labelUnconfirmed {
+        font-weight:normal;
+        font-size:16px;
+        color:#FFFFFF;
+    }
+    QFrame#labelImmature {
+        font-weight:normal;
+        font-size:16px;
+        color:#FFFFFF;
+    }
+    QFrame#labelLockedBalance {
+        font-weight:normal;
+        font-size:16px;
+        color:#FFFFFF;
+    }
+    QFrame#labelTotal {
+        font-weight:normal;
+        font-size:20px;
+        color:#FFFFFF;
     }
 
     QWidget .QFrame#frame { /* AEM Balances Frame */
     qproperty-alignment: 'AlignVCenter | AlignLeft';
-    background-color: transparent;
-    color: white;
+    background-color:transparent; /*#FFF;*/
     }
     
     QWidget .QFrame#line_Balance { /* AEM Balances Underline */
@@ -884,253 +895,21 @@ color: #ffffff;
     border:1px solid #FF4B36;
     }
 
+
+ /**************************** RECENT TRANSACTIONS ***************************************/
+   
     QWidget .QFrame#line_tx { /* AEM Balances Underline */
     qproperty-alignment: 'AlignVCenter | AlignLeft';
     border:1px solid #FF4B36;
     }
     
-    /*AEM recent tx and balance Frames*/
-    QWidget .QListView#listTransactions { 
-    background: transparent;
-    color: #ffffff;
-    }
+    /*AEM recent tx Frame*/  
+    QListView#listTransactions { 
+    background-color:transparent; 
+    color:#FFFFFF;
+    font-size: 16px;
+	}
 
-    QWidget .QFrame#frame_bal { 
-     background-color: transparent;
-    color: #fff;
-    } 
-
-    QWidget .QFrame#frame .QLabel#label_5 { /* AEM Balances Label */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    min-width:160px;
-    background-color:transparent;
-    color:#FFF;
-    font-weight:normal;
-    font-size:14px;
-    margin-right:5px;
-    padding-right:5px;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelWalletStatus { /* Wallet Sync Status */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    margin-left:3px;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelSpendable { /* Spendable Header */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    margin-left:18px;
-    color: white;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelWatchonly { /* Watch-only Header */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    margin-left:16px;
-    color: white;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelBalanceText { /* Available Balance Label */
-    qproperty-alignment: 'AlignVCenter | AlignRight';
-    min-width:160px;
-    background-color:#fff;
-    color:#fff;
-    margin-right:5px;
-    padding-right:5px;
-    font-weight:normal;
-    font-size:14px;
-    min-height:35px;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelBalance { /* Available Balance */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    font-weight:normal;
-    color:#fff;
-    margin-left:0px;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelWatchAvailable { /* Watch-only Balance */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    margin-left:16px;
-    color: white;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelPendingText { /* Pending Balance Label */
-    qproperty-alignment: 'AlignVCenter | AlignRight';
-    min-width:160px;
-    background-color:transparent;
-    color:#fff;
-    margin-right:5px;
-    padding-right:5px;
-    font-weight:normal;
-    font-size:14px;
-    min-height:35px;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelUnconfirmed { /* Pending Balance */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    margin-left:0px;
-    color: white;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelWatchPending { /* Watch-only Pending Balance */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    margin-left:16px;
-    color: white;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelImmatureText { /* Immature Balance Label */
-    qproperty-alignment: 'AlignVCenter | AlignRight';
-    min-width:160px;
-    background-color:transparent;
-    color:#fff;
-    margin-right:5px;
-    padding-right:5px;
-    font-weight:normal;
-    font-size:14px;
-    min-height:35px;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelImmature { /* Immature Balance */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    margin-left:0px;
-    color: white;
-    }
-
-    
-    QWidget .QFrame#frame .QLabel#labelWatchImmature { /* Watch-only Immature Balance */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    margin-left:16px;
-    color: white;
-    }
-
-    
-    QWidget .QFrame#frame .QLabel#labelTotalText { /* Total Balance Label */
-    qproperty-alignment: 'AlignVCenter | AlignRight';
-    min-width:160px;
-    background-color:transparent;
-    color:#fff;
-    margin-right:5px;
-    padding-right:5px;
-    font-weight:normal;
-    font-size:14px;
-    min-height:35px;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelTotal { /* Total Balance */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    margin-left:0px;
-    color: white;
-    }
-    
-    QWidget .QFrame#frame .QLabel#labelWatchTotal { /* Watch-only Total Balance */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    margin-left:16px;
-    color: white;
-    }
-    
-    QWidget .QFrame#frame_3 .QLabel#label_5z { /* Combined Balance Label */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    min-width:160px;
-    background-color:transparent;
-    color:#FF4B36;
-    font-weight:normal;
-    font-size:14px;
-    margin-right:5px;
-    padding-right:5px;
-    }
-    
-    QWidget .QFrame#frame_3 .QLabel#labelBalanceTextz { /* Available AEM Label */
-    qproperty-alignment: 'AlignVCenter | AlignRight';
-    min-width:160px;
-    background-color:transparent;
-    color:#ffffff;
-    margin-right:5px;
-    padding-right:5px;
-    font-weight:normal;
-    font-size:14px;
-    /* min-height:35px; */
-    }
-    
-    QWidget .QFrame#frame_3 .QLabel#labelBalancez { /* Available AEM Balance */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    font-weight:normal;
-    color:#ffffff;
-    margin-left:0px;
-    }
-    
-    
-    QWidget .QFrame#frame_3 .QLabel#labelTotalTextz { /* Available total Label */
-    qproperty-alignment: 'AlignVCenter | AlignRight';
-    min-width:160px;
-    background-color:transparent;
-    color:#ffffff;
-    margin-right:5px;
-    padding-right:5px;
-    font-weight:normal;
-    font-size:14px;
-    /* min-height:35px; */
-    }
-    
-    QWidget .QFrame#frame_3 .QLabel#labelTotalz { /* Available total Balance */
-    qproperty-alignment: 'AlignVCenter | AlignLeft';
-    font-size:14px;
-    font-weight:normal;
-    color:#FFF;
-    margin-left:0px;
-    }
-    
-    /**************************** RECENT TRANSACTIONS ***************************************/
-    
-    QWidget .QFrame#frame_2 { /* Transactions Widget */
-    min-width:410px;
-    min-height:100px;
-    margin-right:20px;
-    margin-left:0;
-    margin-top:0;
-    background-color:transparent;
-    color: #fff;
-    }
-    
-    QWidget .QFrame#frame_2 .QLabel#label_4 { /* Recent Transactions Label */
-    min-width:180px;
-    color:#ffffff;
-    margin-left:67px;
-    margin-top:83px;
-    margin-right:5px;
-    padding-right:5px;
-    font-weight:normal;
-    font-size:15px;
-    min-height:24px;
-    }
-    
-    QWidget .QFrame#frame_2 .QLabel#labelTransactionsStatus { /* Recent Transactions Sync Status */
-    qproperty-alignment: 'AlignBottom | AlignRight';
-    min-width:93px;
-    margin-top:83px;
-    margin-left:16px;
-    margin-right:5px;
-    min-height:16px;
-    color: #fff;
-    }
-    
-    QWidget .QFrame#frame_2 .QListView { /* Transaction List */
-    font-weight:normal;
-    font-size:14px;
-    color: #ffffff;
-    max-width:369px;
-    margin-top:12px;
-    margin-left:0px; /* CSS Voodoo - set to -66px to hide default transaction icons */
-    }
     
     /**************************** SEND DIALOG ***********************************************/
     
@@ -1272,7 +1051,7 @@ color: #ffffff;
     QDialog#SendCoinsDialog QLabel#labelBalance {
     margin-left:0px;
     padding-left:0px;
-    color:#ffffff;
+    color:#FFFFFF;
     /* font-weight:bold;
     border-radius:5px;
     padding-top:20px;
@@ -1291,7 +1070,7 @@ color: #ffffff;
     min-width:102px;
     font-weight:normal;
     font-size:14px;
-    color:#fff;
+    color:#FFFFFF;
     min-height:25px;
     margin-right:5px;
     padding-right:5px;
@@ -1426,7 +1205,7 @@ color: #ffffff;
     
     QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget { /* Coin Control Widget Container */
     outline:0;
-    background-color:#000;
+    background-color:#2C2128;
     border:1px solid #333;
     }
     
@@ -1435,12 +1214,12 @@ color: #ffffff;
     
     QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:selected { /* Coin Control Item (selected) */
     background-color:#FF4B36;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::item:checked { /* Coin Control Item (checked) */
     background-color:#f7f7f7;
-    color:#fff;
+    color:#FFFFFF;
     }
     
     QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::branch:selected { /* Coin Control Branch Icon */
@@ -1482,7 +1261,7 @@ color: #ffffff;
     QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_2 { /* Label Label */
     background-color:transparent;
     min-width:102px;
-    color:#ffffff;
+    color:#FFFFFF;
     font-weight:normal;
     font-size:14px;
     padding-right:5px;
@@ -1491,7 +1270,7 @@ color: #ffffff;
     QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label { /* Amount Label */
     background-color:transparent;
     min-width:102px;
-    color:#ffffff;
+    color:#FFFFFF;
     font-weight:normal;
     font-size:14px;
     padding-right:5px;
@@ -1500,7 +1279,7 @@ color: #ffffff;
     QWidget#ReceiveCoinsDialog .QFrame#frame2 .QLabel#label_3 { /* Message Label */
     background-color:transparent;
     min-width:102px;
-    color:#ffffff;
+    color:#FFFFFF;
     font-weight:normal;
     font-size:14px;
     padding-right:5px;
@@ -1571,14 +1350,14 @@ color: #ffffff;
     
     /**************************** TRANSACTIONS PAGE *****************************************/
     /* QWidget#TransactionsView {
-    background-color:#fff;
+    background-color:#FFFFFF;
     }
     TransactionsView {
     background-color:#ff5;
     } */
 
     TransactionView QLineEdit { /* Address Filter */
-    background-color:#fff;
+    background-color:#FFFFFF;
     margin-bottom:2px;
     margin-right:1px;
     min-width:111px;
@@ -1588,81 +1367,30 @@ color: #ffffff;
     TransactionView QComboBox {
     margin-bottom:1px;
     margin-right:1px;
-    color: #fff;
+    color: #FFFFFF;
     }
     
     QLabel#transactionSumLabel { /* Example of setObjectName for widgets without name */
-    color:#ffffff;
+    color:#FFFFFF;
     font-weight:normal;
     }
      
     QLabel#transactionSum { /* Example of setObjectName for widgets without name */
-    color:#ffffff;
+    color:#FFFFFF;
     }
     
     /**************************** TRANSACTION DETAILS DIALOG ********************************/
     
     QDialog#TransactionDescDialog QTextEdit { /* Contents of Receive Coin Dialog */
     border:1px solid #d7d7d7;
-    color: #fff;
+    color: #FFFFFF;
     }
     
-    /**************************** PRIVACY PAGE *****************************************/
-    /*
-    QDialog#PrivacyDialog {
-    background-color:#fff;
-    }
-    */
-    /*
-    QWidget#PrivacyDialog {
-    background-color:#fff;
-    }
-    */
-    
-    QWidget#PrivacyDialog .QFrame[frameShape="4"] { /* QFrame::HLine == 0x0004 */
-    border:1px solid #372f44;
-    }
-    
-    QWidget#PrivacyDialog .QFrame#frame_Content {
-    background-color:#ffffff;
-    }
-    
-    QWidget#PrivacyDialog .QFrame#verticalFrameLeft {
-    background-color:#ffffff;
-    }
-    
-    QWidget#PrivacyDialog .QFrame#verticalFrameRight {
-    background-color:#ffffff;
-    }
-    
+   
     /**************************** MASTERNODE LIST *******************************************/
     QWidget#MasternodeList .QFrame#frameList {
     background: transparent;
     }
     
-    /********************************* CALENDAR WIDGET **************************************/
-    
-    QCalendarView {
-    border:1px solid #333;
-    color: #ffffff;
-    }
-    
-    QCalendarWidget QWidget#qt_calendar_navigationbar { /* Calendar widget navigation bar */
-    background-color:#FF4B36;
-    font-weight:normal;
-    }
-    
-    QCalendarWidget QAbstractItemView { /* Calendar widget days */
-    alternate-background-color:#dedbe5;
-    background-color:#fff;
-    }
-    
-    QCalendarWidget QAbstractItemView:enabled { /* Calendar widget weekdays in month */
-    color:#ffffff;
-    }
-    
-    QCalendarWidget QAbstractItemView:disabled { /* Calendar widget days not in month */
-    color:#ffffff;
-    }
     
     
