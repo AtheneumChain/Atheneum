@@ -144,11 +144,7 @@ WalletFrame {
     color:#FFFFFF;
     }
     
-    QToolTip {
-    background-color:#2C2128;
-    color:#FFFFFF;
-    }
-    
+   
     QTextEdit {
     background-color:#2C2128;
     color:#FFFFFF;
