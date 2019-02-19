@@ -122,7 +122,8 @@ WalletFrame {
     }
     
     QToolTip {
-    background:#08232a;
+    background:#08232a!important;
+    background-color:#08232a!important;
     color:#2288cc!important;
     }
     
