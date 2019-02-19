@@ -33,6 +33,9 @@
         <file alias="synced">res/icons/default/synced.png</file>
         <file alias="remove">res/icons/default/remove.png</file>
         <file alias="tx_mined">res/icons/default/tx_mined.png</file>
+        <file alias="tx_output">res/icons/default/tx_output.png</file>
+        <file alias="tx_input">res/icons/default/tx_input.png</file>
+        <file alias="tx_inout">res/icons/default/tx_inout.png</file>
         <file alias="unit_aem">res/icons/default/unit_aem.png</file>
         <file alias="unit_maem">res/icons/default/unit_maem.png</file>
         <file alias="unit_uaem">res/icons/default/unit_uaem.png</file>
@@ -83,6 +86,9 @@
         <file alias="synced">res/icons/dark/synced.png</file>
         <file alias="remove">res/icons/dark/remove.png</file>
         <file alias="tx_mined">res/icons/dark/tx_mined.png</file>
+        <file alias="tx_output">res/icons/default/tx_output.png</file>
+        <file alias="tx_input">res/icons/default/tx_input.png</file>
+        <file alias="tx_inout">res/icons/default/tx_inout.png</file>
         <file alias="unit_aem">res/icons/dark/unit_aem.png</file>
         <file alias="unit_maem">res/icons/dark/unit_maem.png</file>
         <file alias="unit_uaem">res/icons/dark/unit_uaem.png</file>
