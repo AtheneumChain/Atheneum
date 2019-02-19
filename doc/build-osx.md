@@ -38,7 +38,7 @@ Instructions: Homebrew
 
 #### Install dependencies using Homebrew
 
-        brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
+        brew install autoconf automake berkeley-db@4 git libevent libtool boost@1.57 miniupnpc openssl pkg-config protobuf qt5 zeromq librsvg
 
 ### Building `atheneumd`
 
@@ -47,17 +47,27 @@ Instructions: Homebrew
         git clone https://github.com/AtheneumChain/Atheneum.git
         cd AEM
 
-2.  Build atheneumd:
+2. We need a specific version of boost to build the current Atheneum wallet, and now that it's installed, we need to link it:
+
+        brew link boost@1.57 --force
+
+3. Make the Homebrew OpenSSL and Qt headers visible to the configure script.
+
+        export LDFLAGS="-L/usr/local/opt/openssl/lib -L/usr/local/opt/qt/lib"
+        export CPPFLAGS="-I/usr/local/opt/openssl/include -I/usr/local/opt/qt/include"
+
+4.  Build atheneumd:
 
         ./autogen.sh
         ./configure --with-gui=qt5
         make
+        make deploy
 
-3.  It is also a good idea to build and run the unit tests:
+5.  It is also a good idea to build and run the unit tests:
 
         make check
 
-4.  (Optional) You can also install atheneumd to your path:
+6.  (Optional) You can also install atheneumd to your path:
 
         make install
 
