@@ -372,12 +372,12 @@ QVariant TransactionTableModel::txAddressDecoration(const TransactionRecord* wtx
     case TransactionRecord::RecvWithObfuscation:
     case TransactionRecord::RecvWithAddress:
     case TransactionRecord::RecvFromOther:
-        return QIcon(":/icons/tx_input");
+        return QIcon(":/icons/" + theme  + "/tx_input");
     case TransactionRecord::SendToAddress:
     case TransactionRecord::SendToOther:
-        return QIcon(":/icons/tx_output");
+        return QIcon(":/icons/" + theme  + "/tx_output");
     default:
-        return QIcon(":/icons/tx_inout");
+        return QIcon(":/icons/" + theme  + "/tx_inout");
     }
 }
 

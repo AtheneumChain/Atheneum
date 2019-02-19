@@ -26,6 +26,7 @@ Bip38ToolDialog::Bip38ToolDialog(QWidget* parent) : QDialog(parent),
                                                     ui(new Ui::Bip38ToolDialog),
                                                     model(0)
 {
+    QString theme = GUIUtil::getThemeName();
     ui->setupUi(this);
 
 #if QT_VERSION >= 0x040700
