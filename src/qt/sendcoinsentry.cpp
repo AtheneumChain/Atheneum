@@ -23,6 +23,14 @@ SendCoinsEntry::SendCoinsEntry(QWidget* parent) : QStackedWidget(parent),
 {
     ui->setupUi(this);
 
+    QString theme = GUIUtil::getThemeName();
+
+    ui->addressBookButton->setIcon(QIcon(":/icons/" + theme + "/address-book"));
+    ui->pasteButton->setIcon(QIcon(":/icons/" + theme + "/editpaste"));
+    ui->deleteButton->setIcon(QIcon(":/icons/" + theme + "/remove"));
+    ui->deleteButton_is->setIcon(QIcon(":/icons/" + theme + "/remove"));
+    ui->deleteButton_s->setIcon(QIcon(":/icons/" + theme + "/remove"));
+
     setCurrentWidget(ui->SendCoins);
 
 #ifdef Q_OS_MAC

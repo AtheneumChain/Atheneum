@@ -10,12 +10,15 @@
 #include "ui_interface.h"
 #include "util.h"
 #include "utilstrencodings.h"
+#include "guiutil.h"
 #include <QDateTime>
 #include <QKeyEvent>
 #include <QMessageBox>
 #include <set>
 
 extern double GetDifficulty(const CBlockIndex* blockindex = NULL);
+
+
 
 inline std::string utostr(unsigned int n)
 {
@@ -431,6 +434,11 @@ BlockExplorer::BlockExplorer(QWidget* parent) : QMainWindow(parent),
                                                 m_HistoryIndex(0)
 {
     ui->setupUi(this);
+
+    QString theme = GUIUtil::getThemeName();
+
+    ui->back->setIcon(QIcon(":/icons/" + theme + "/back"));
+    ui->forward->setIcon(QIcon(":/icons/" + theme + "/forward"));
 
     connect(ui->pushSearch, SIGNAL(released()), this, SLOT(onSearch()));
     connect(ui->content, SIGNAL(linkActivated(const QString&)), this, SLOT(goTo(const QString&)));

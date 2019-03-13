@@ -29,6 +29,17 @@ Bip38ToolDialog::Bip38ToolDialog(QWidget* parent) : QDialog(parent),
     QString theme = GUIUtil::getThemeName();
     ui->setupUi(this);
 
+    ui->addressBookButton_ENC->setIcon(QIcon(":/icons/" + theme + "/address-book"));
+    ui->pasteButton_ENC->setIcon(QIcon(":/icons/" + theme + "/editpaste"));
+    ui->copyKeyButton_ENC->setIcon(QIcon(":/icons/" + theme + "/editcopy"));
+    ui->encryptKeyButton_ENC->setIcon(QIcon(":/icons/" + theme + "/edit"));
+    ui->clearButton_ENC->setIcon(QIcon(":/icons/" + theme + "/remove"));
+    ui->pasteButton_DEC->setIcon(QIcon(":/icons/" + theme + "/editpaste"));
+    ui->decryptKeyButton_DEC->setIcon(QIcon(":/icons/" + theme + "/transaction_0"));
+    ui->clearButton_DEC->setIcon(QIcon(":/icons/" + theme + "/remove"));
+    
+
+
 #if QT_VERSION >= 0x040700
     ui->decryptedKeyOut_DEC->setPlaceholderText(tr("Click \"Decrypt Key\" to compute key"));
 #endif

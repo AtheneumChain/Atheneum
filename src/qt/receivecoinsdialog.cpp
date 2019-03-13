@@ -27,12 +27,13 @@ ReceiveCoinsDialog::ReceiveCoinsDialog(QWidget* parent) : QDialog(parent),
 {
     ui->setupUi(this);
 
-#ifdef Q_OS_MAC // Icons on push buttons are very uncommon on Mac
-    ui->clearButton->setIcon(QIcon());
-    ui->receiveButton->setIcon(QIcon());
-    ui->showRequestButton->setIcon(QIcon());
-    ui->removeRequestButton->setIcon(QIcon());
-#endif
+    QString theme = GUIUtil::getThemeName();
+
+    ui->receiveButton->setIcon(QIcon(":/icons/" + theme + "/receiving_addresses"));
+    ui->clearButton->setIcon(QIcon(":/icons/" + theme + "/remove"));
+    ui->showRequestButton->setIcon(QIcon(":/icons/" + theme + "/edit"));
+    ui->removeRequestButton->setIcon(QIcon(":/icons/" + theme + "/remove"));
+
 
     // context menu actions
     QAction* copyLabelAction = new QAction(tr("Copy label"), this);
