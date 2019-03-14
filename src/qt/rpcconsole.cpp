@@ -64,6 +64,8 @@ const struct {
     {"misc", ":/icons/tx_inout"},
     {NULL, NULL}};
 
+
+    
 /* Object for executing console RPC commands in a separate thread.
 */
 class RPCExecutor : public QObject
@@ -226,6 +228,8 @@ RPCConsole::RPCConsole(QWidget* parent) : QDialog(parent),
 {
     ui->setupUi(this);
     GUIUtil::restoreWindowGeometry("nRPCConsoleWindow", this->size(), this);
+    QString theme = GUIUtil::getThemeName();
+    ui->clearButton->setIcon(QIcon(":/icons/" + theme + "/remove"));
 
 #ifndef Q_OS_MAC
     ui->openDebugLogfileButton->setIcon(QIcon(":/icons/export"));

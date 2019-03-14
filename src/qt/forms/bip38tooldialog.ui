@@ -73,10 +73,6 @@
            <property name="text">
             <string/>
            </property>
-           <property name="icon">
-            <iconset resource="../atheneum.qrc">
-             <normaloff>:/icons/address-book</normaloff>:/icons/address-book</iconset>
-           </property>
            <property name="shortcut">
             <string>Alt+A</string>
            </property>
@@ -89,10 +85,6 @@
            </property>
            <property name="text">
             <string/>
-           </property>
-           <property name="icon">
-            <iconset resource="../atheneum.qrc">
-             <normaloff>:/icons/editpaste</normaloff>:/icons/editpaste</iconset>
            </property>
            <property name="shortcut">
             <string>Alt+P</string>
@@ -169,10 +161,6 @@
            <property name="text">
             <string/>
            </property>
-           <property name="icon">
-            <iconset resource="../atheneum.qrc">
-             <normaloff>:/icons/editcopy</normaloff>:/icons/editcopy</iconset>
-           </property>
           </widget>
          </item>
         </layout>
@@ -187,10 +175,6 @@
            <property name="text">
             <string>Encrypt &amp;Key</string>
            </property>
-           <property name="icon">
-            <iconset resource="../atheneum.qrc">
-             <normaloff>:/icons/edit</normaloff>:/icons/edit</iconset>
-           </property>
            <property name="autoDefault">
             <bool>false</bool>
            </property>
@@ -203,10 +187,6 @@
            </property>
            <property name="text">
             <string>Clear &amp;All</string>
-           </property>
-           <property name="icon">
-            <iconset resource="../atheneum.qrc">
-             <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
            </property>
            <property name="autoDefault">
             <bool>false</bool>
@@ -310,10 +290,6 @@
            <property name="text">
             <string/>
            </property>
-           <property name="icon">
-            <iconset resource="../atheneum.qrc">
-             <normaloff>:/icons/editpaste</normaloff>:/icons/editpaste</iconset>
-           </property>
            <property name="shortcut">
             <string>Alt+P</string>
            </property>
@@ -358,10 +334,6 @@
            <property name="text">
             <string>Decrypt &amp;Key</string>
            </property>
-           <property name="icon">
-            <iconset resource="../atheneum.qrc">
-             <normaloff>:/icons/transaction_0</normaloff>:/icons/transaction_0</iconset>
-           </property>
            <property name="autoDefault">
             <bool>false</bool>
            </property>
@@ -374,10 +346,6 @@
            </property>
            <property name="text">
             <string>Clear &amp;All</string>
-           </property>
-           <property name="icon">
-            <iconset resource="../atheneum.qrc">
-             <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
            </property>
            <property name="autoDefault">
             <bool>false</bool>
