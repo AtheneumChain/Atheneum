@@ -85,6 +85,7 @@ OptionsDialog::OptionsDialog(QWidget* parent, bool enableWallet) : QDialog(paren
     ui->theme->addItem(QString("Default"), QVariant("default"));
     ui->theme->addItem(QString("AEM_dark"), QVariant("dark"));
     ui->theme->addItem(QString("Tech"), QVariant("tech"));
+    ui->theme->addItem(QString("New Theme"), QVariant("new_theme"));
 
     /* Language selector */
     QDir translations(":translations");
