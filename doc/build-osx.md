@@ -33,6 +33,19 @@ dependencies.
 The installation of the actual dependencies is covered in the Instructions
 sections below.
 
+Compiling Natively on Mojave 10.14
+----------------------------------
+There is an existing bug for macOS Mojave (10.14) and Xcode that causes a failure in building Atheneum. If you DO NOT perform this step, you will encounter issues in your very first CXX. A work around for this includes a few steps:
+
+1.
+        
+        open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
+        
+2. Ensure that the Command Line Tools are linked after installing by typing in the Terminal:
+        
+        sudo xcode-select --switch /Library/Developer/CommandLineTools
+
+
 Instructions: Homebrew
 ----------------------
 
