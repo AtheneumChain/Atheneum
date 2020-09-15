@@ -31,4 +31,4 @@ Atheneum combines the DAO, a decentralized blockchain voting mechanism utilizing
 
 Our team has created an easy-to-follow instructional video showing how to setup an Atheneum Masternode. You may watch that video on our YouTube channel: https://youtu.be/usplEkbInwM
 
-For more information, visit our website: https://atheneumchain.io
+For more information, visit our website: https://atheneum.tech
